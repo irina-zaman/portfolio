@@ -1693,7 +1693,7 @@ figcaption {
 .header_contrast {
   background-color: var(--dark);
   color: var(--light);
-  letter-spacing: .08em;
+  letter-spacing: .05em;
   font-weight: 900;
   transition: all .3s;
 }
