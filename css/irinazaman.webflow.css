@@ -2285,14 +2285,13 @@ figcaption {
     flex: none;
   }
 
-  .header_subtitle-wrapper {
+  .header_subtitle-wrapper, .last_wrapper {
     grid-column-gap: .25rem;
     grid-row-gap: .25rem;
   }
 
-  .last_wrapper {
-    grid-column-gap: .5rem;
-    grid-row-gap: .5rem;
+  .last_link {
+    font-size: 1.75rem;
   }
 
   .footer_text {
@@ -2406,6 +2405,7 @@ figcaption {
   }
 
   .header_subtitle {
+    letter-spacing: 0;
     font-size: 1.375rem;
   }
 
@@ -2419,7 +2419,7 @@ figcaption {
   }
 
   .last_link {
-    font-size: 2rem;
+    font-size: 1.375rem;
   }
 
   .footer-text-wrap {
